@@ -127,3 +127,38 @@ def main(training)
 результатом выполнения метода должен быть объект класса `InfoMessage`, его нужно сохранить в переменную `info`.
 – Для объекта `InfoMessage`, сохранённого в переменной `info`, должен быть вызван метод,
 который вернёт строку сообщения с данными о тренировке; эту строку нужно передать в функцию `print()`.
+
+
+## Технологии
+- Python 3.7.9
+- Pytest 6.2.5
+
+## Установка
+1. **Клонируйте репозиторий:**
+```sh
+git clone https://github.com/Alexandra1624/hw_python_oop.git
+```
+
+2. **Cоздать и активировать виртуальное окружение:**
+```sh
+python -m venv venv
+source venv/Scripts/activate
+```
+
+3. **Обновить pip и установить зависимости из файла requirements.txt:**
+```sh
+python -m pip install --upgrade pip
+pip install -r requirements.txt
+```
+
+6. **Проверка тестов :**
+```sh
+pytest
+```
+
+ ## Автор
+
+**_Александра Радионова_**  
+https://github.com/Alexandra1624  
+https://t.me/alexandra_R1624  
+sashamain@yandex.ru
